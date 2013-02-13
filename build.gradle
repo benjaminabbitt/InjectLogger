@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+project.group = 'com.github.benjaminAbbitt'
+project.version = '1.0.0-SNAPSHOT'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+			pom.artifactId = 'InjectLogger'
+        }
+    }
+}
