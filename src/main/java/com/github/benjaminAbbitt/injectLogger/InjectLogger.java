@@ -1,4 +1,4 @@
-package com.github.benjaminAbbitt.logging.injectLogger;
+package com.github.benjaminAbbitt.injectLogger;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
